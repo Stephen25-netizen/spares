@@ -1,0 +1,145 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #218838;
+}
+
+nav {
+    background-color: #343a40;
+    padding: 10px 15px;
+    position: static;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #495057;
+}
+
+.hero {
+    background-color: #6f42c1;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.featured-products {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.featured-items {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.featured-items img {
+    width: 30%; /* Maintain existing width */
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s; /* Add transition */
+}
+
+.featured-items img:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.menu {
+    display: inline-block;
+    padding: 5px 30px;
+    border-radius: 17px;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.menu-items {
+    background-color: indigo;
+    padding: 12px 20px;
+    border-radius: 20px;
+    display: flex; /* Added for better layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+}
+
+.menu-item {
+    background-size: cover; /* Ensure the background image covers the area */
+    background-position: center; /* Center the background image */
+    height: 200px; /* Set a height for the menu items */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Text color for better visibility */
+}
+
+footer {
+    text-align: center; /* Centered text */
+    padding: 20px; /* Added padding for spacing */
+    background-color: #343a40; /* Dark background for footer */
+    color: white; /* White text color for contrast */
+}
+
+footer ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+footer ul li {
+    display: inline; /* Inline list items */
+    margin: 0 10px; /* Spacing between items */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+footer ul li a:hover {
+    color: #007bff; /* Change color on hover */
+}
